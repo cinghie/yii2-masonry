@@ -1,0 +1,25 @@
+{
+    "name": "cinghie/yii2-masonry",
+    "description": "Asset Bundle to include Masonry on your Yii 2 project",
+    "keywords": ["yii2", "yii2 masonry", "yii2 masonry asset", "yii2 masonry asset", "masonry"],
+    "homepage": "https://github.com/cinghie/yii2-masonry",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Gogodigital.it",
+            "email": "info@gogodigital.it",
+            "homepage": "http://www.gogodigital.it/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0.15",
+        "bower-asset/jquery-masonry": "^4.2.2",
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "cinghie\\masonry\\": ""
+        }
+    }
+}
