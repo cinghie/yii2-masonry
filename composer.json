@@ -13,9 +13,8 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "^2.0.15",
-        "bower-asset/jquery-masonry": "^4.2.2",
-        "roave/security-advisories": "dev-master"
+        "yiisoft/yii2": "^2.0.14",
+        "bower-asset/jquery-masonry": "^4.2.2"
     },
     "autoload": {
         "psr-4": {
