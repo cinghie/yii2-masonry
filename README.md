@@ -1,5 +1,11 @@
 # Yii2 Masonry
 
+![Latest Stable Version](https://img.shields.io/packagist/v/cinghie/yii2-masonry.svg)
+![License](https://img.shields.io/packagist/l/cinghie/yii2-masonry.svg)
+![Latest Release Date](https://img.shields.io/github/release-date/cinghie/yii2-masonry.svg)
+![Latest Commit](https://img.shields.io/github/last-commit/cinghie/yii2-masonry.svg)
+[![Total Downloads](https://img.shields.io/packagist/dt/cinghie/yii2-masonry.svg)](https://packagist.org/packages/cinghie/yii2-masonry)
+
 Asset Bundle to include Masonry on your Yii 2 project: https://github.com/desandro/masonry
 
 Installation
