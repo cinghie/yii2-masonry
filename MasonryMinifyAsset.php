@@ -7,13 +7,15 @@
 * @github https://github.com/cinghie/yii2-masonry
 * @license GNU GENERAL PUBLIC LICENSE VERSION 3
 * @package yii2-masonry
-* @version 1.0.0
+* @version 1.0.1
 */
 
 namespace cinghie\masonry;
 
+use yii\bootstrap\BootstrapAsset;
+use yii\bootstrap\BootstrapPluginAsset;
 use yii\web\AssetBundle;
-use yii\web\JqueryAsset;
+use yii\web\YiiAsset;
 
 /**
  * Class FontAwesomeAsset
@@ -22,7 +24,6 @@ use yii\web\JqueryAsset;
  */
 class MasonryMinifyAsset extends AssetBundle
 {
-
 	/**
 	 * @inherit
 	 */
@@ -39,7 +40,8 @@ class MasonryMinifyAsset extends AssetBundle
 	 * @inherit
 	 */
 	public $depends = [
-		JqueryAsset::class,
+		YiiAsset::class,
+		BootstrapAsset::class,
+		BootstrapPluginAsset::class,
 	];
-
 }
