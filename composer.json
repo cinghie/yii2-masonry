@@ -16,6 +16,9 @@
         "yiisoft/yii2": "^2.0.14",
         "bower-asset/jquery-masonry": "^4.2.2"
     },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
     "autoload": {
         "psr-4": {
             "cinghie\\masonry\\": ""
