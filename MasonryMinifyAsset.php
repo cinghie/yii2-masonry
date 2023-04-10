@@ -7,7 +7,7 @@
 * @github https://github.com/cinghie/yii2-masonry
 * @license GNU GENERAL PUBLIC LICENSE VERSION 3
 * @package yii2-masonry
-* @version 1.0.1
+* @version 1.0.2
 */
 
 namespace cinghie\masonry;
